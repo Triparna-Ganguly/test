@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    position: relative;
+    top:50px;
+    width: 100%;
+}
+.container h1
+{
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+h2{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    float: right;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+p{ 
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h1{ 
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-size:100em;
+    margin-bottom: 30px;
+}
+.one,.two,.three
+{
+  background-color: #B2BABB;
+  width: 30%;
+  float: left;
+  border: 1px solid black;
+  margin: 10px 5px 10px 30px;
+}
+.one h2{
+    background-color: chocolate;
+}
+.two h2{
+    background-color: palevioletred;
+}
+.three h2{
+    background-color: blueviolet;
+}
+.one p,.two p,.three p
+{
+  clear: right;
+  font-size: 20px;
+  padding: 10px;
+}
+.container{
+    width: 100%;
+  }
+@media (max-width:991px) and (min-width:768px)
+{
+.one,.two
+  {
+    width: 46%;
+    float: left;
+    border: 1px solid black;
+    margin: 2%;
+  }
+  .three
+  {
+    width: 96%;
+    border: 1px solid black;
+    margin: 2%;
+  }
+}
+
+@media (max-width:767px)
+{
+.one,.two,.three
+  {
+    width: 96%;
+    border: 1px solid black;
+    margin: 2%;
+  }
+}
